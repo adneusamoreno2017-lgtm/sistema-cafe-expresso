@@ -1,0 +1,23 @@
+@startuml
+
+class Produto {
+  nome : String
+  preco : double
+}
+
+class ItemPedido {
+  quantidade : int
+  calcularSubtotal()
+}
+
+class Pedido {
+  status : String
+  adicionarItem()
+  calcularTotal()
+  alterarStatus()
+}
+
+Pedido "1" -- "0..*" ItemPedido
+ItemPedido "1" -- "1" Produto
+
+@enduml
