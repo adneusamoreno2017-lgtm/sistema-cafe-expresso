@@ -1,6 +1,4 @@
 # sistema-cafe-expresso
-# Sistema Café Expresso
-
 Este projeto apresenta o diagrama de classes de um sistema de autoatendimento em cafeteria.
 
 Classes principais:
